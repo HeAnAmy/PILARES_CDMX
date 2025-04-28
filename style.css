@@ -1,0 +1,235 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F5F5;
+    color: #000;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #E4002B;
+    padding: 15px 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+.main-content {
+    padding: 40px 0;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.intro h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #FFF;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.card h3 {
+    color: #E4002B;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Botones */
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn-red {
+    background-color: #E4002B;
+    color: #FFF;
+}
+
+.btn-red:hover {
+    background-color: #c00024;
+}
+
+.btn-black {
+    background-color: #000;
+    color: #FFF;
+}
+
+.btn-black:hover {
+    background-color: #333;
+}
+
+.btn-gray {
+    background-color: #CCC;
+    color: #000;
+}
+
+.btn-gray:hover {
+    background-color: #AAA;
+}
+
+/* Footer */
+.footer {
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+
+
+/* Formulario */
+.form-content {
+    padding: 40px 0;
+}
+
+.registration-form {
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #E4002B;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #E4002B;
+}
+
+/* Botón de enviar */
+.registration-form .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Tabla de Asistencia */
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.attendance-table th,
+.attendance-table td {
+    padding: 12px;
+    border: 1px solid #CCC;
+    text-align: center;
+}
+
+.attendance-table th {
+    background-color: #E4002B;
+    color: #FFF;
+}
+
+.attendance-form .btn {
+    width: 100%;
+}
+
+/* Notificaciones */
+.notifications {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.notification-card {
+    background-color: #FFF;
+    padding: 20px;
+    border-left: 6px solid #E4002B;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notification-card h3 {
+    margin-top: 0;
+    color: #E4002B;
+}

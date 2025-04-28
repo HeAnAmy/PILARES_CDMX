@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lista de Asistencia - PILARES CDMX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo"><img src="https://sic.gob.mx/images/135960" alt="logopilares" width="250px" height="200px"></h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="registro.html">Registrar Alumno</a></li>
+                <li><a href="./asistencia.html">Lista de Asistencia</a></li>
+                <li><a href="notificaciones.html">Notificaciones</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main class="container form-content">
+        <h2>Pasar Lista de Asistencia</h2>
+        <form class="attendance-form" action="#" method="post">
+            <table class="attendance-table">
+                <thead>
+                    <tr>
+                        <th>Nombre del Alumno</th>
+                        <th>Asistencia</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Juan Pérez</td>
+                        <td>
+                            <input type="checkbox" name="asistencia_juan" value="presente">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>María García</td>
+                        <td>
+                            <input type="checkbox" name="asistencia_maria" value="presente">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Carlos López</td>
+                        <td>
+                            <input type="checkbox" name="asistencia_carlos" value="presente">
+                        </td>
+                    </tr>
+                    <!-- Puedes agregar más alumnos -->
+                </tbody>
+            </table>
+
+            <button type="submit" class="btn btn-red">Guardar Asistencia</button>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Escuela de Código PILARES CDMX | Proyecto Académico</p>
+    </footer>
+
+</body>
+
+</html>
